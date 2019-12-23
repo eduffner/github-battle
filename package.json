@@ -4,12 +4,15 @@
   "description": "tyler mcginnis beginning react project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV='production' webpack",
+    "start": "webpack-dev-server"
   },
-  "author": "",
+  "author": "Eileen Duffner",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.12.0"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
     "babel-loader": "^8.0.6",
@@ -19,5 +22,6 @@
     "svg-inline-loader": "^0.8.0",
     "webpack": "^4.41.4",
     "webpack-cli": "^3.3.10"
-  }
+  },
+  "keywords": []
 }
